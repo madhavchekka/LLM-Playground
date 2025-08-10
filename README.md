@@ -11,7 +11,8 @@ Before working on any LLM project, it is important that you have proper virtual 
 >> git clone git@github.com:madhavchekka/LLM-Playground.git
 
 # Create venv
->> cd LLM-Playground  
+>> cd LLM-Playground
+>> uv python pin 3.11  
 >> uv sync  
 
 # Optional Steps:
@@ -24,4 +25,5 @@ Before working on any LLM project, it is important that you have proper virtual 
 
 # Launch Jupyter notebook and start working
 >> uv run jupyter notebook
+
 
